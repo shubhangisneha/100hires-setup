@@ -32,10 +32,11 @@ Description: Setup and documentation for Cursor, Claude Code, Codex, and GitHub 
 -Enabled commit and push in Cursor.
 -Documented the setup process.
 
-## Issues I ran into and how I solved them
--Session expired
--While connecting GitHub, the session expired.
--Solution: Tried again through GitHub and completed the connection process.
+- Issues I ran into and how I solved them
+  
+Session expired
+While connecting GitHub, the session expired.
+Solution: Tried again through GitHub and completed the connection process.
 
 -Could not find the extension panel
 -Initially had difficulty locating the extension panel in Cursor.
@@ -45,6 +46,6 @@ Description: Setup and documentation for Cursor, Claude Code, Codex, and GitHub 
 -Did not initially know how to open the GitHub repository in Cursor.
 -Solution: Watched a YouTube tutorial and followed the demonstrated steps.
 
--Git username and email configuration
--While trying to commit and push changes, a dialog box appeared saying: "Make sure you configure your username and usermail in Git."
--Solution: Learned how to resolve the issue through Google AI Search and configured the username and usermail in Git Bash.
+Git username and email configuration
+While trying to commit and push changes, a dialog box appeared saying: "Make sure you configure your username and usermail in Git."
+Solution: Learned how to resolve the issue through Google AI Search and configured the username and usermail in Git Bash.

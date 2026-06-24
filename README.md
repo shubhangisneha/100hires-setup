@@ -33,6 +33,7 @@ Enabled commit and push in Cursor.
 Documented the setup process.
 
 - Issues I ran into and how I solved them
+  
 Session expired
 While connecting GitHub, the session expired.
 Solution: Tried again through GitHub and completed the connection process.

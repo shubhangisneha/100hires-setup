@@ -32,7 +32,7 @@ Description: Setup and documentation for Cursor, Claude Code, Codex, and GitHub 
 -Enabled commit and push in Cursor.
 -Documented the setup process.
 
-- Issues I ran into and how I solved them
+## Issues I ran into and how I solved them
   
 Session expired
 While connecting GitHub, the session expired.

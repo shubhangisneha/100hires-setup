@@ -1,51 +1,112 @@
 # 100hires-setup
-Description: Setup and documentation for Cursor, Claude Code, Codex, and GitHub onboarding
-## Tools Installed
--Cursor
--GitHub
--Claude extension for Cursor
--Git
 
-## Accounts created
--Cursor 
--GitHub 
+Setup notes and documentation for onboarding with **Cursor**, **GitHub**, **Claude Code**, and **Git**.
 
-## Steps completed
--Dissected and understood the email with the help of ChatGPT.
--Downloaded Cursor.
--Encountered the "Windows protected your PC" dialog box and selected "Run anyway".
--Accepted the license agreement.
--Selected destination location.
--Selected start menu folder.
--Selected additional tasks.
--Installed Cursor.
--Signed in to Cursor using a Google account.
--Connected GitHub to Cursor.
--Created a GitHub account.
--Authorized GitHub access.
--Installed the Claude extension in Cursor.
--Created a GitHub repository.
--Watched a YouTube video to understand how to open the GitHub repository in Cursor.
--Followed the steps shown in the video.
--Opened the repository in Cursor.
--Learned how to edit code in Cursor.
--Enabled commit and push in Cursor.
--Documented the setup process.
+This repository records the tools installed, the steps taken during setup, and how common issues were resolved.
 
-## Issues I ran into and how I solved them
-  
-Session expired
-While connecting GitHub, the session expired.
-Solution: Tried again through GitHub and completed the connection process.
+---
 
--Could not find the extension panel
--Initially had difficulty locating the extension panel in Cursor.
--Solution: Used ChatGPT to find the extension panel and install the Claude extension.
+## Tools & accounts
 
--Opening the repository in Cursor
--Did not initially know how to open the GitHub repository in Cursor.
--Solution: Watched a YouTube tutorial and followed the demonstrated steps.
+### Installed
 
-Git username and email configuration
-While trying to commit and push changes, a dialog box appeared saying: "Make sure you configure your username and usermail in Git."
-Solution: Learned how to resolve the issue through Google AI Search and configured the username and usermail in Git Bash.
+
+| Tool                            | Purpose                        |
+| ------------------------------- | ------------------------------ |
+| **Cursor**                      | AI-powered code editor         |
+| **Git**                         | Version control                |
+| **Claude extension for Cursor** | AI assistant inside the editor |
+| **GitHub**                      | Remote repository hosting      |
+
+
+### Accounts created
+
+- **Cursor** — signed in with a Google account
+- **GitHub** — new account created and connected to Cursor
+
+---
+
+## Setup walkthrough
+
+### 1. Install Cursor
+
+1. Reviewed the onboarding email (with help from ChatGPT).
+2. Downloaded Cursor from the official site.
+3. Handled the Windows **"Windows protected your PC"** dialog by selecting **Run anyway**.
+4. Accepted the license agreement and completed the installer (destination, Start Menu folder, additional tasks).
+5. Signed in to Cursor using a Google account.
+
+### 2. Connect GitHub
+
+1. Created a GitHub account.
+2. Connected GitHub to Cursor and authorized access.
+3. Retried the connection after a session-expired error (see [Troubleshooting](#troubleshooting)).
+
+### 3. Install the Claude extension
+
+1. Opened the extension panel in Cursor (see [Troubleshooting](#troubleshooting) if you cannot find it).
+2. Installed the Claude extension.
+
+### 4. Open a repository in Cursor
+
+1. Created a GitHub repository.
+2. Watched a YouTube tutorial on opening a GitHub repo in Cursor and followed the steps shown.
+3. Opened the repository in Cursor and learned how to edit code.
+
+### 5. Commit, push, and document
+
+1. Enabled commit and push in Cursor.
+2. Configured Git username and email when prompted (see [Troubleshooting](#troubleshooting)).
+3. Documented the full setup process in this repository.
+
+---
+
+## Troubleshooting
+
+Each issue below includes what happened and how it was fixed.
+
+### Session expired while connecting GitHub
+
+**What happened:** The GitHub connection session expired before authorization finished.
+
+**Fix:** Retried the connection through GitHub and completed the process.
+
+### Could not find the extension panel
+
+**What happened:** The extension panel was not obvious in the Cursor UI at first.
+
+**Fix:** Used ChatGPT to locate the extension panel, then installed the Claude extension.
+
+### Opening the repository in Cursor
+
+**What happened:** It was unclear how to open a GitHub repository inside Cursor.
+
+**Fix:** Watched a YouTube tutorial and followed the demonstrated steps.
+
+### Git username and email not configured
+
+**What happened:** While trying to commit and push, a dialog appeared:
+
+> Make sure you configure your username and usermail in Git.
+
+**Fix:** Looked up the solution via Google AI Search, then configured the username and user email in Git Bash:
+
+```bash
+git config --global user.name "Your Name"
+git config --global user.email "your.email@example.com"
+```
+
+---
+
+## Quick reference
+
+
+| Task                   | Where to do it                      |
+| ---------------------- | ----------------------------------- |
+| Edit code              | Cursor editor                       |
+| Install extensions     | Cursor extension panel              |
+| Create / manage repos  | GitHub                              |
+| Commit and push        | Cursor (Source Control) or Git Bash |
+| Configure Git identity | Git Bash (`git config --global …`)  |
+
+
